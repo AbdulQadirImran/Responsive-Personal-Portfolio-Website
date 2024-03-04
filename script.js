@@ -3,7 +3,6 @@ window.addEventListener("scroll", function(){
   const header = document.querySelector("header");
   header.classList.toggle('sticky', window.scrollY > 0);
 });
-
 //javascript for responsive navigation sidebar menu
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
